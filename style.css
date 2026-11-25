@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(img/Div\ [banner].png);
+    /* background-repeat: no-repeat; */
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FB9D5C;
+    font-size: 20px;
+    margin: 0px;
+}
+.logo{
+    width: 70px;
+}
+.nav-item{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+li{
+    list-style: none;
+}
+li:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    border-radius: 5px;
+}
+.item-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    padding: auto;
+    line-height: 45px;
+}
+.btn-1{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 18px;
+    color: black;
+    background-color: #FB9D5C;
+    border: none;
+    border-radius: 10px;
+}
+.per-1{
+    color: #FB9D5C;
+}
+.group-img{
+    margin: 40px 30px;
+    background-color: #F9F9F9 ;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.services-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.common_img{
+    border: 1px solid gray;
+    width: 356px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.services{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    margin: auto;
+    max-width: 1200px;
+}
+#h1-org{
+    color: #FB9D5C;
+}
+.txt-h{
+    display: flex;
+    gap: 10px;
+    
+}
+.btn-hire-us{
+    border: none;
+    background-color: #0DCAF0;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.g1{
+    display: flex;
+    justify-content: center;
+    margin-top:30px !important;
+    margin:auto;
+    max-width: 1000px;
+    gap: 60px;
+    line-height: 40px;
+}
+footer{
+    margin-top: 20px;
+    background-color: #151515;
+    color: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+}
+.sm_1{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.img-text-sm-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#input_mail{
+    padding: 10px;
+    background-color: #808080;
+    border: none;
+    width: 200px;
+}
+#input_mail::placeholder{
+    color: #c0c1c1;
+}
